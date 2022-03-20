@@ -1,4 +1,4 @@
-baseURL = "https://bigoudops.github.io"
+baseURL = "https://bigoudops.github.io/"
 languageCode = "fr-fr"
 title = "APDM"
 theme = "hugo-theme-nix"
@@ -35,5 +35,3 @@ theme = "hugo-theme-nix"
   RedditID = "your_reddit"
   TwitterID = "@tinymontana92"
   TwitchID = "Bigoud927"
-
-
