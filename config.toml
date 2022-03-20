@@ -1,0 +1,39 @@
+baseURL = "https://bigoudops.github.io"
+languageCode = "fr-fr"
+title = "APDM"
+theme = "hugo-theme-nix"
+
+[menu]
+  [[menu.header]]
+    identifier = "post"
+    name = "posts"
+    weight = 0
+  [[menu.header]]
+    parent = "post"
+    name = "All Posts"
+    url = "/posts"
+  [[menu.header]]
+    parent = "post"
+    name = "categories"
+    url = "/categories"
+  [[menu.header]]
+    parent = "post"
+    name = "tags"
+    url = "/tags"
+
+[params]
+  Name = "John Bigoudops"
+  HeaderUsername = "Bigoud"
+  HeaderHostname = "Bigoudops"
+  About = "hello this is our website for fun about L'Apéro Des Papas Manchots"
+  ProfilePicture = "https://secure.gravatar.com/avatar/bbaa1c0e9944b1037b2b1d0064748605?s=800&d=identicon"
+  FacebookID = "your_facebook"
+  GithubID = "BigoudOps"
+  GitlabId = "BigoudOps"
+  LinkedInID = "your_linkedin"
+  PayPalMeID = "https://www.paypal.me/..."
+  RedditID = "your_reddit"
+  TwitterID = "@tinymontana92"
+  TwitchID = "Bigoud927"
+
+
